@@ -1,0 +1,14 @@
+.idea/
+
+.vscode/
+
+solutions/java/.idea/
+solutions/java/out/
+
+solutions/c++/.idea/
+
+solutions/csharp/bin/
+solutions/csharp/obj/
+solutions/typescript/node_modules/
+
+solutions/golang/app.log

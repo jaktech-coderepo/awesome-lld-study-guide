@@ -1,0 +1,57 @@
+- **Study Guide**
+  - [Home](/README.md)
+
+- **Easy LLD Problems**
+  - [Parking Lot](/problems/parking-lot.md)
+  - [Stack Overflow](/problems/stack-overflow.md)
+  - [Vending Machine](/problems/vending-machine.md)
+  - [Logging Framework](/problems/logging-framework.md)
+  - [Traffic Signal](/problems/traffic-signal.md)
+  - [Coffee Vending Machine](/problems/coffee-vending-machine.md)
+  - [Task Management System](/problems/task-management-system.md)
+
+- **Medium LLD Problems**
+  - [ATM](/problems/atm.md)
+  - [LinkedIn](/problems/linkedin.md)
+  - [LRU Cache](/problems/lru-cache.md)
+  - [Tic-Tac-Toe](/problems/tic-tac-toe.md)
+  - [Pub/Sub System](/problems/pub-sub-system.md)
+  - [Elevator System](/problems/elevator-system.md)
+  - [Car Rental System](/problems/car-rental-system.md)
+  - [Online Auction System](/problems/online-auction-system.md)
+  - [Hotel Management System](/problems/hotel-management-system.md)
+  - [Digital Wallet Service](/problems/digital-wallet-service.md)
+  - [Airline Management System](/problems/airline-management-system.md)
+  - [Library Management System](/problems/library-management-system.md)
+  - [Social Networking Service](/problems/social-networking-service.md)
+  - [Snake and Ladder](/problems/snake-and-ladder.md)
+  - [Restaurant Management System](/problems/restaurant-management-system.md)
+  - [Food Delivery Service](/problems/food-delivery-service.md)
+  - [Online Shopping Service](/problems/online-shopping-service.md)
+  - [Movie Ticket Booking](/problems/movie-ticket-booking-system.md)
+  - [Course Registration](/problems/course-registration-system.md)
+
+- **Hard LLD Problems**
+  - [Cricinfo](/problems/cricinfo.md)
+  - [Splitwise](/problems/splitwise.md)
+  - [Chess Game](/problems/chess-game.md)
+  - [Ride Sharing Service](/problems/ride-sharing-service.md)
+  - [Music Streaming Service](/problems/music-streaming-service.md)
+  - [Online Stock Brokerage](/problems/online-stock-brokerage-system.md)
+  - [Concert Ticket Booking](/problems/concert-ticket-booking-system.md)
+
+- **Implementation Examples**
+  - <a href="browse.html?path=solutions%2Fjava%2Fsrc%2Fparkinglot%2F">Parking Lot in Java</a>
+  - <a href="browse.html?path=solutions%2Fpython%2Fparkinglot%2F">Parking Lot in Python</a>
+  - <a href="browse.html?path=solutions%2Fcpp%2Fparkinglot%2F">Parking Lot in C++</a>
+  - <a href="browse.html?path=solutions%2Fcsharp%2Fparkinglot%2F">Parking Lot in C#</a>
+  - <a href="browse.html?path=solutions%2Fgolang%2Fparkinglot%2F">Parking Lot in Go</a>
+
+- **Fundamentals**
+  - [Python design patterns](/design-patterns/python/README.md)
+  - [OOP in C++](/oop/cpp/classesandobjects/README.md)
+  - [OOP in C#](/oop/csharp/classesandobjects/README.md)
+  - [OOP in Go](/oop/golang/classesandobjects/README.md)
+  - [OOP in Java](/oop/java/classesandobjects/README.md)
+  - [OOP in Python](/oop/python/classesandobjects/README.md)
+  - [OOP in Rust](/oop/rust/classes_and_objects/README.md)

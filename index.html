@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Local study guide for Awesome Low Level Design">
+    <title>Awesome Low Level Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <style>
+      :root {
+        --theme-color: #2563eb;
+      }
+
+      .markdown-section {
+        max-width: 1050px;
+      }
+
+      .markdown-section img {
+        max-height: 75vh;
+        object-fit: contain;
+      }
+
+      .sidebar-nav > ul > li > p {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 1rem 0 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">Loading the LLD study guide...</div>
+    <script>
+      const siteBasePath = location.hostname.endsWith('github.io')
+        ? '/awesome-lld-study-guide/'
+        : '/';
+
+      window.$docsify = {
+        name: 'Awesome LLD',
+        nameLink: siteBasePath,
+        basePath: siteBasePath,
+        repo: '',
+        homepage: 'README.md',
+        loadSidebar: true,
+        autoHeader: true,
+        subMaxLevel: 3,
+        auto2top: true,
+        notFoundPage: true,
+        alias: {
+          '/.*/_sidebar.md': '/_sidebar.md'
+        },
+        search: {
+          placeholder: 'Search LLD topics',
+          noData: 'No matching topic found',
+          depth: 4
+        },
+        pagination: {
+          crossChapter: true,
+          crossChapterText: true
+        }
+      };
+    </script>
+    <script>
+      addEventListener('click', event => {
+        const link = event.target.closest('article a');
+        if (!link) {
+          return;
+        }
+
+        const route = link.getAttribute('href');
+        const match = route && route.match(/^#\/(solutions\/.+\/)$/);
+        if (match) {
+          event.preventDefault();
+          location.href = `browse.html?path=${encodeURIComponent(match[1])}`;
+        }
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  </body>
+</html>
