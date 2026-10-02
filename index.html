@@ -67,7 +67,7 @@
         }
 
         const route = link.getAttribute('href');
-        const match = route && route.match(/^#\/(solutions\/.+\/)$/);
+        const match = route && route.match(/^#\/(?:\.\.\/)*(solutions\/.+\/)$/);
         if (match) {
           event.preventDefault();
           location.href = `browse.html?path=${encodeURIComponent(match[1])}`;
